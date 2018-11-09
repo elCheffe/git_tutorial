@@ -1,0 +1,25 @@
+# go to folder with your Project
+
+# open cmd there
+
+# initialize git
+git init
+
+
+# check the status
+git status
+
+
+# add an untracked file
+# command: git add filename.fileextension
+git add gitCommands.txt
+
+# check status again
+git status
+
+# commit
+# command: git commit -m "some message I want to add to this commit"
+#  Message: for me to know what was going on here in this version"
+git commit -m "first commit"
+
+
