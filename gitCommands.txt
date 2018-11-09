@@ -1,5 +1,13 @@
 # go to folder with your Project
 
+# set user name and user email (for this repository only)
+git config user.email "marco_keller9@yahoo.de"
+git config user.name "elCheffe"
+
+# to set it global use:
+#git config --global user.email "marco_keller9@yahoo.de"
+#git config --global user.name "elCheffe"
+
 # open cmd there
 
 # initialize git
@@ -23,6 +31,31 @@ git status
 git commit -m "first commit"
 
 # add something/changes to this text file for the next commit. i.e. this line
+# then again:
+git add gitCommand.txt
+git commit -m "second commit"
+
+# add all files
+# git add .
+
+# Step 5: remote repository (on github)
+# adding to remote repository on github
+
+# command: git remote add origin link-to-repository
+git remote add origin https://github.com/elCheffe/git_tutorial.git
+
+# go to github (https://github.com/elCheffe/git_tutorial) and 
+# refresh your repository --> you should see NOTHING!!
+# ...because we have not pushed our repository yet
+
+# command: git push -u origin ..branch-name..
+git push -u origin master
+
+# --> now go to github again, refresh, and you see: the committed files :)
+
+
+
+
 
 
 
